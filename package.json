@@ -1,0 +1,33 @@
+{
+  "name": "nik4furi-colorify",
+  "version": "1.0.0",
+  "description": "Its a npm package ,help the users to make their message colorful on the consoles of the browser so that can debugging in better way",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build" : "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nik4Furi/Nik4Furi-colorify.git"
+  },
+  "keywords": [
+    "Nik4Furi",
+    "make",
+    "colorfull",
+    "consoles",
+    "colorify",
+    "nik4furi-colorify"
+  ],
+  "author": "Nik4Furi nikfuri2212@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nik4Furi/Nik4Furi-colorify/issues"
+  },
+  "homepage": "https://github.com/Nik4Furi/Nik4Furi-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": ["lib/**/"]
+}
